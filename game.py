@@ -11,6 +11,7 @@ class color:
 print(f'{color.Green}{color.BOLD}Игра "Камень, ножницы, бумага"{color.END}')
 a = input(f'{color.Green}Для того чтобы начать игру нажми: {color.Blue}пробел\n')
 
+
 if a == ' ':
   run = True
   print(f'{color.Green}Игра началась\nИграем до трёх')
